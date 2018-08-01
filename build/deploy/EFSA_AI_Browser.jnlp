@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="EFSA_AI_Browser.jnlp">
+  <information>
+    <title>EFSA_AI_Browser</title>
+    <vendor>efsa</vendor>
+    <description>EFSA_AI_Browser</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="EFSA_AI_Browser.jar" size="21926" download="eager" />
+    <jar href="libs\controlsfx-8.40.14.jar" size="1215643" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="src.MainApp"  name="EFSA_AI_Browser" />
+  <update check="background"/>
+</jnlp>

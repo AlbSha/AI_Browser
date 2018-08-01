@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.161" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.view.ProbabilityStatisticsController">
+   <children>
+      <LineChart fx:id="lineChart" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <xAxis>
+          <NumberAxis label="Number of Terms" lowerBound="1.0" minorTickVisible="false" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis label="Prediction probability %" minorTickVisible="false" side="LEFT" upperBound="100.0" />
+        </yAxis>
+      </LineChart>
+   </children>
+</AnchorPane>
